@@ -13,7 +13,7 @@ const SectionThirteen = () => {
    return (
       <section id="review" class="row dark-section parallax-section">
       <div class="col-md-6">
-        <img src="images/banner-image1.png" class="img-fluid"/>
+        <img src="images/banner-image1.png" class="img-fluid" alt="img1"/>
       </div>
       <div class="col-md-6">
         <h4 class="font-blue"> Success at your fingertips</h4>

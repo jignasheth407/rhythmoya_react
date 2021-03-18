@@ -9,7 +9,7 @@ const SectionTen = () => {
             <div className="row mt-5">
               <div className="col-md-4 text-left">
                 <div className="widget-section">
-                  <img src="images/growth-icon.png"/>
+                  <img src="images/growth-icon.png" alt="img1"/>
                   <h4>Growth Tools</h4>
                   <ul>
                     <li>6 Psychologcal tools designed to move you closer to your goals every singal day...</li>
@@ -18,7 +18,7 @@ const SectionTen = () => {
               </div>
               <div className="col-md-4 text-left">
                 <div className="widget-section">
-                  <img src="images/breath-icon.png"/>
+                  <img src="images/breath-icon.png" alt="img1"/>
                   <h4>Breathwork</h4>
                   <ul>
                     <li>Audio meditations</li>
@@ -29,7 +29,7 @@ const SectionTen = () => {
               </div>
               <div className="col-md-4 text-left">
                 <div className="widget-section">
-                  <img src="images/chat-icon.png"/>
+                  <img src="images/chat-icon.png" alt="img1"/>
                   <h4>Chat & Channels</h4>
                   <ul>
                     <li>Live Webinar Training Classes</li>
@@ -41,7 +41,7 @@ const SectionTen = () => {
 
               <div className="col-md-4 text-left">
                 <div className="widget-section">
-                  <img src="images/mastery-icon.png"/>
+                  <img src="images/mastery-icon.png" alt="img1"/>
                   <h4>Mastery</h4>
                   <ul>
                     <li>Guided Neuro Autonomic <br/>Patterning™ sessions</li>
@@ -56,7 +56,7 @@ const SectionTen = () => {
 
               <div className="col-md-4 text-left">
                 <div className="widget-section">
-                  <img src="images/accountability-icon.png"/>
+                  <img src="images/accountability-icon.png" alt="img1"/>
                   <h4>Accountability</h4>
                   <ul>
                     <li>New accountability partner <br/>automatically assigned monthly</li>
@@ -68,7 +68,7 @@ const SectionTen = () => {
 
               <div className="col-md-4 text-left">
                 <div className="widget-section">
-                  <img src="images/growth-icon.png"/>
+                  <img src="images/growth-icon.png" alt="img1"/>
                   <h4>Support</h4>
                   <ul>
                     <li>24/7 FAST support</li>

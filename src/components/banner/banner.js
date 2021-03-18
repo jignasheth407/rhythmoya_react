@@ -34,7 +34,7 @@ import ModalTwo from '../modal/ModalTwo';
               </ModalContainer>
               </div>
               <div className="col-md-6">
-                <img src="images/banner-image1.png" className="img-fluid"/>
+                <img src="images/banner-image1.png" className="img-fluid" alt="banner"/>
               </div>
             </div>
             

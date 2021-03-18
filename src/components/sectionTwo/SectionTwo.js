@@ -15,7 +15,7 @@ const SectionTwo = () => {
           <div className="container">
             <div className="row clearfix">
               <div className="col-md-4">
-                <img src="images/WidgetImage1.png" className="img-fluid" />
+                <img src="images/WidgetImage1.png" className="img-fluid"  alt="img1"/>
               </div>
 
 

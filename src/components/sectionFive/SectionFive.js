@@ -18,7 +18,7 @@ const SectionFive = () => {
                 <h2>The Ultimate Self Development App</h2>
             <div className="row clearfix">
               <div className="col-md-4">
-                <img src="images/WidgetImage2.png" className="img-fluid" />
+                <img src="images/WidgetImage2.png" className="img-fluid" alt="img1" />
               </div>
 
 

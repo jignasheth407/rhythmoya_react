@@ -14,7 +14,7 @@ const SectionNine = () => {
           <div class="container text-center">
             <div class="row clearfix">
               <div class="col-md-4">
-                <img src="images/WidgetImage6.png" class="img-fluid" />
+                <img src="images/WidgetImage6.png" class="img-fluid" alt="img1"/>
               </div>
               <div class="col-md-8 text-left">                
                 <h4 class="pt-5"><b>Chats & Channels</b></h4>
