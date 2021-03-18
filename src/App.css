@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Metropolis-Bold";
+  src: url(fonts/Metropolis-Bold.otf);
+}
+@font-face {
+  font-family: "Metropolis-Regular";
+  src: url(fonts/Metropolis-Regular.otf);
+}
+@font-face {
+  font-family: "Metropolis-Thin";
+  src: url(fonts/Metropolis-Thin.otf);
+}
+@font-face {
+  font-family: "Metropolis-Medium";
+  src: url(fonts/Metropolis-Medium.otf);
+}
+@font-face {
+  font-family: "Metropolis-Light";
+  src: url(fonts/Metropolis-Light.otf);
+}
+html{scroll-behavior: smooth;}
+
+body{font-family: "Metropolis-Regular"; background: #fff; color: #101010; line-height:28px }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{ font-family:"Metropolis-Regular";margin-bottom:1rem }
+
+h1{font-size: 42px;}
+h2{font-size: 32px; font-family:"Metropolis-Regular"  }
+h3{font-size: 21px;  }
+h4{font-size: 19px; font-family:"Metropolis-Medium" }
+p{font-size: 18px;  font-family:"Metropolis-Light" }
+
+.grey-section{background-color: #F8F8FA }
+.dark-section{background-color:#101010; color: #fff;}
+section{padding-top: 70px; padding-bottom: 70px}
+header{background: #000}
+ .svg-separator {position:absolute;width:100%;height: 20px;bottom: 0;left: 0;display: flex;justify-content: center;flex-direction: column;z-index: 1;}
+
+section.banner{/*background: url(images/banner-image1.png)no-repeat right; background-size:contain;*/background-color:#000; }
+.section-heading{}
+.checked{color: #FFCB57}
+.font-blue{color: #408bcd; font-family:"Metropolis-Light"}
+.font-red{color:#fe0202;}
+.font-light{font-family: "Metropolis-Light" !important;}
+.parallax-section{color: #FFFEFE;}
+.btn-joinus{
+	padding: 0 35px;line-height: 50px; 
+	font-family:  "Metropolis-Regular";
+	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#01a6e6+0,01a0e2+22,0180cd+71,0077c7+93,0471c3+100 */
+border:none;color:#fff;background: #01a6e6; /* Old browsers */
+background: -moz-linear-gradient(top,  #01a6e6 0%, #01a0e2 22%, #0180cd 71%, #0077c7 93%, #0471c3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #01a6e6 0%,#01a0e2 22%,#0180cd 71%,#0077c7 93%,#0471c3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #01a6e6 0%,#01a0e2 22%,#0180cd 71%,#0077c7 93%,#0471c3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a6e6', endColorstr='#0471c3',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*Stepper*/
+.md-stepper-horizontal {display:table;width:100%;margin:0 auto;background-color:#FFFFFF;/*box-shadow: 0 3px 8px -6px rgba(0,0,0,.50);*/
+}
+.md-stepper-horizontal .md-step {display:table-cell;position:relative;padding:24px;}
+.md-stepper-horizontal .md-step:hover,
+.md-stepper-horizontal .md-step:active {background-color:rgba(0,0,0,0.04);}
+.md-stepper-horizontal .md-step:active {border-radius: 15% / 75%;}
+.md-stepper-horizontal .md-step:first-child:active {border-top-left-radius: 0;border-bottom-left-radius: 0;}
+.md-stepper-horizontal .md-step:last-child:active {border-top-right-radius: 0;border-bottom-right-radius: 0;}
+.md-stepper-horizontal .md-step:hover .md-step-circle {background-color:#757575;}
+
+.md-stepper-horizontal .md-step:first-child .md-step-bar-left,
+.md-stepper-horizontal .md-step:last-child .md-step-bar-right {display:none;}
+.md-stepper-horizontal .md-step .md-step-circle {width:30px;height:30px;margin:0 auto;background-color:#999999;
+	border-radius: 50%;text-align: center;line-height:30px;font-size: 16px;	font-weight: 600;color:#FFFFFF;}
+.md-stepper-horizontal.green .md-step.active .md-step-circle {
+	background-color:#00AE4D;
+}
+.md-stepper-horizontal .md-step .stepperonetofour span{font-size: 30px}
+.md-stepper-horizontal.orange .md-step.active .md-step-circle {
+	background-color:#F96302;
+}
+.md-stepper-horizontal .md-step.active .md-step-circle {
+	background-color: rgb(33,150,243);
+}
+.md-stepper-horizontal .md-step.done .md-step-circle:before {
+	font-family:'FontAwesome';
+	font-weight:100;
+	content: "\f00c";
+}
+.md-stepper-horizontal .md-step.done .md-step-circle *,
+.md-stepper-horizontal .md-step.editable .md-step-circle * {
+	display:none;
+}
+.md-stepper-horizontal .md-step.editable .md-step-circle {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.md-stepper-horizontal .md-step.editable .md-step-circle:before {
+	font-family:'FontAwesome';
+	font-weight:100;
+	content: "\f040";
+}
+.md-stepper-horizontal .md-step .md-step-title {
+	margin-top:16px;
+	font-size:16px;
+	font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-title,
+.md-stepper-horizontal .md-step .md-step-optional {
+	text-align: center;
+	color:#000;
+}
+.md-stepper-horizontal .md-step.active .md-step-title {
+	font-weight: 600;
+	color:rgba(0,0,0,.87);
+}
+.md-stepper-horizontal .md-step.active.done .md-step-title,
+.md-stepper-horizontal .md-step.active.editable .md-step-title {
+	font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-optional {
+	font-size:18px;
+}
+.md-stepper-horizontal .md-step.active .md-step-optional {
+	color:#000;
+}
+.md-stepper-horizontal .md-step .md-step-bar-left,
+.md-stepper-horizontal .md-step .md-step-bar-right {
+	position:absolute;
+	top:35px;
+	height:1px;
+	border-top:3px solid #0093DB;
+}
+.md-stepper-horizontal .md-step .md-step-bar-right {
+	right:0;
+	left:50%;
+	margin-left:40px;
+}
+.md-stepper-horizontal .md-step .md-step-bar-left {
+	left:0;
+	right:50%;
+	margin-right:40px;
+}
+.md-step-optional h6{
+	font-family: "Metropolis-Light";
+}
+
+.widget-section{margin-bottom:30px}
+.widget-section img{margin-bottom:25px;height: 50px }
+.widget-section h4{font-family: "Metropolis-Medium";}
+.widget-section ul{padding:0px 0px 0px 15px}
+.widget-section ul li{ font-family:  "Metropolis-Light"; }
+
+footer{ padding: 25px 0px}
+
+.head_fixed{
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+#toTop {
+	padding: 5px 3px;
+	background: #000;
+	color: #ff0000;
+	position: fixed;
+	bottom: 0;
+	right: 5px;
+	z-index: 999;
+}
+
+/* top bittion*/
+.back-to-top {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	display: none;
+}
+.btn-top{
+	background-color: #2aa9e4;
+}
+.btn-top:hover{
+	background: linear-gradient(to bottom,  #01a6e6 0%,#01a0e2 22%,#0180cd 71%,#0077c7 93%,#0471c3 100%);;
+}
+
+.fa-angle-up{
+	color: #fff;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {padding-right: 1rem;padding-left: 1rem;}
+}
