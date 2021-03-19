@@ -6,7 +6,6 @@ import ModalTwo from '../modal/ModalTwo'
 
 export const ModalContainer = styled.div`
    display: flex;
-   justify-content: center;
    align-items: center;
    
 `
@@ -40,7 +39,7 @@ background: linear-gradient(to bottom, #01a6e6 0%,#01a0e2 22%,#0180cd 71%,#0077c
            <p>Apply now to see if you are eligible to become one of the founding members of Rhythmoya and receive 50% off plus bonus 1-1 performence sessions with world class coach  Clay Moffat once you complete the fiest 8 week of the program. </p>
            
               <ModalContainer>
-              <Button onClick={openModal} className="" > JOIN US</Button>
+              <button onClick={openModal} className="btn btn-joinus" > JOIN US</button >
               <ModalTwo showModal={showModal} setShowModal={setShowModal}/>
               <GlobalStyle/>
               </ModalContainer>
