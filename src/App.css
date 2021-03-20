@@ -35,7 +35,7 @@ p{font-size: 18px;  font-family:"Metropolis-Light" }
 .fa-check{color: #FFCB57;}
 .grey-section{background-color: #F8F8FA }
 .dark-section{background-color:#101010; color: #fff;}
-section{padding-top: 60px; padding-bottom: 106px}
+section{padding-top: 60px; padding-bottom: 127px}
 header{background: #101010}
  .svg-separator {position:absolute;width:100%;height: 20px;bottom: 0;left: 0;display: flex;justify-content: center;flex-direction: column;z-index: 1;}
  .media-img img{width: 35px;height: 35px;}
@@ -49,7 +49,8 @@ section.banner{background: url(images/wavebg-banner.png)no-repeat ; background-s
 .font-light{font-family: "Metropolis-Light" !important;}
 .parallax-section{color: #FFFEFE;}
 .btn-joinus{
-	padding: 0 35px;line-height: 0px; 
+	padding: 0 35px;
+	line-height: 30px; 
 	font-family:  "Metropolis-Regular";
 	justify-content: left;
 	

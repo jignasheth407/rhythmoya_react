@@ -1,14 +1,9 @@
 import React, {useState} from 'react';
-import {Button, ModalContainer} from '../sectionOne/SectionOne';
-import GlobalStyle from '../../globalStyles';
 
-import ModalTwo from '../modal/ModalTwo';
+import Modal from '../modal/Modal';
 
 const SectionTwo = () => {
-  const [showModal, setShowModal] = useState(false)
 
-   const openModal = () =>{ 
-      setShowModal(prev => !prev) }
 
    return (
       <section className="row clearfix grey-section">
@@ -30,15 +25,14 @@ const SectionTwo = () => {
                 <p>And with Growth Tools™ you get access to 6 exclusive strategies and tactics built to increase your performance, manage stress, learn quickly, and build the right habits to ultimately achieve anything you want in life easier, and faster. </p>
                 <p>Delivered on an easy to use platform right on your smartphone.</p>
                 <p><b>Apply Here to see if you are eligible to join Rhythmoya </b></p>
-                <ModalContainer>
-              <Button onClick={openModal} className="" > JOIN US</Button>
-              <ModalTwo showModal={showModal} setShowModal={setShowModal}/>
-              <GlobalStyle/>
-              </ModalContainer>
+                
+                <button data-toggle="modal" data-target="#myModal" className="btn btn-joinus" > JOIN US NOW</button>
+              
 
 
               </div>
             </div>
+            <Modal />
           </div>
         
         </section>

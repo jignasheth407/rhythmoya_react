@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 import GlobalStyle from '../../globalStyles';
 
-import ModalTwo from '../modal/ModalTwo'
+import Modal from '../modal/Modal'
 
 export const ModalContainer = styled.div`
    display: flex;
@@ -24,10 +24,7 @@ background: linear-gradient(to bottom, #01a6e6 0%,#01a0e2 22%,#0180cd 71%,#0077c
 
  const SectionOne = () => {
 
-   const [showModal, setShowModal] = useState(false)
-
-   const openModal = () =>{ 
-      setShowModal(prev => !prev) }
+   
    
 
    return (
@@ -38,13 +35,12 @@ background: linear-gradient(to bottom, #01a6e6 0%,#01a0e2 22%,#0180cd 71%,#0077c
            <h2>Doors Open March 1st, 2021</h2>
            <p>Apply now to see if you are eligible to become one of the founding members of Rhythmoya and receive 50% off plus bonus 1-1 performence sessions with world class coach  Clay Moffat once you complete the fiest 8 week of the program. </p>
            
-              <ModalContainer>
-              <button onClick={openModal} className="btn btn-joinus" > JOIN US</button >
-              <ModalTwo showModal={showModal} setShowModal={setShowModal}/>
-              <GlobalStyle/>
-              </ModalContainer>
+              
+              <button data-toggle="modal" data-target="#myModal" className="btn btn-joinus" > JOIN US NOW</button>
+              
            
           </div>
+          <Modal/>
         </section>
    )
 }
