@@ -8,7 +8,7 @@ const SectionThirteen = () => {
    return (
       <section id="review" className="row dark-section parallax-section">
       <div className="col-md-6">
-        <img src="images/banner-image1.png" className="img-fluid" alt="img1"/>
+        <img src="images/banner-img.png" className="img-fluid" alt="img1"/>
       </div>
       <div className="col-md-6">
         <h4 className="font-blue"> </h4>

@@ -12,7 +12,7 @@ import SectionSix from './components/sectionSix/SectionSix';
 import SectionSeven from './components/sectionSeven/SectionSeven';
 import SectionEight from './components/sectionEight/SectionEight';
 import SectionTen from './components/sectionTen/SectionTen';
-import SectionEleven from './components/sectionEleven/SectionEleven';
+// import SectionEleven from './components/sectionEleven/SectionEleven';
 import SectionTwelve from './components/sectionTwelve/SectionTwelve';
 import SectionThirteen from './components/sectionThirteen/SectionThirteen';
 import Footer from './layout/footer/Footer';
@@ -41,7 +41,7 @@ function App() {
       <SectionEight/>
       <SectionNine/>
       <SectionTen/>
-      <SectionEleven/>
+      {/* <SectionEleven/> */}
       <SectionTwelve/>
       <SectionThirteen/>
       <Footer/>
