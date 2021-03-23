@@ -16,7 +16,7 @@ import SectionEleven from './components/sectionEleven/SectionEleven';
 import SectionTwelve from './components/sectionTwelve/SectionTwelve';
 import SectionThirteen from './components/sectionThirteen/SectionThirteen';
 import Footer from './layout/footer/Footer';
-
+import Modal from '../src/components/modal/Modal';
 import {Router, Route} from 'react-router-dom'
 
 
@@ -45,6 +45,7 @@ function App() {
       <SectionTwelve/>
       <SectionThirteen/>
       <Footer/>
+      <Modal/>
       
     </div>
   );

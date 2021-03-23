@@ -17,7 +17,7 @@ const SectionSix = () => {
               
 
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 pt-5">
             <img src="images/WidgetImage3.png" class="img-fluid" alt="img1"/>
           </div>
         </div>

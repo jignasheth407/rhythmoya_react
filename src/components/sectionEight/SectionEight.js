@@ -13,7 +13,7 @@ const SectionEight = () => {
           <div className="container text-center">
             <div className="row clearfix">
               <div className="col-md-8 text-left">                
-                <h4 className="pt-5"><b>Mastery</b></h4>
+                <h4><b>Mastery</b></h4>
                 <p>Discover how to master your LIFE.</p>
                 <p>Become Centered, Get Clear, Start Condensing Your Focus and Learn To Live Confidently…</p>
                 <p>The mastery section uncovers step by step blueprints and guided hypnosis sessions to reprogram your mindset automatically and become a stronger, emotionally stable, better version of you than you could ever attain by yourself…</p>
@@ -22,7 +22,7 @@ const SectionEight = () => {
               
               </div>
               
-              <div className="col-md-4">
+              <div className="col-md-4 pt-5">
                 <img src="images/WidgetImage5.png" className="img-fluid" alt="img1"/>
               </div>
             </div>            

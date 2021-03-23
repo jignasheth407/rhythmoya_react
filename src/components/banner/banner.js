@@ -5,11 +5,12 @@ import React, {useState} from 'react';
  
    
     return (
+      <>
       <section id="about" className="banner dark-section row clearfix">
           <div className="container">
             <div className="row clearfix">
               <div className="col-md-6 header-heading">
-                <h1>Say Goodbutton Outdated Self Development Courses & Say Hello to Rhythmoya...</h1>
+                <h1>Say Goodbye to Outdated Self Development Courses & Say Hello to Rhythmoya...</h1>
                 <h5>Notice meaningful changes in the first 7 days...</h5>
                 <ul>
                   <li><i className="fa fa-check"></i>&nbsp;&nbsp;Make a Bigger Impact</li>
@@ -20,14 +21,14 @@ import React, {useState} from 'react';
                   <li><i className="fa fa-check"></i>&nbsp;&nbsp;Clear Past Trauma & Negative Beliefs</li> 
                 </ul>                 
                 {/* modal here */}
-                <div>
-                <button data-toggle="modal" data-target="#myModal" className="btn btn-joinus" > JOIN US NOW</button>
-              <span >&nbsp;&nbsp;<i className="far fa-play-circle fa-lg"></i>&nbsp;&nbsp;Watch Video</span>
+                <div className="mb-2 float-left clearfix">
+                <button data-toggle="modal" data-target="#myModal" className="btn btn-joinus float-left" > JOIN US NOW</button>
+              <span className="text-light pl-3 float-left pt-2">&nbsp;&nbsp;<i className="far fa-play-circle fa-lg"></i>&nbsp;&nbsp;Watch Video</span>
                 </div>
                 
               
               
-              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div id="carouselExampleControls" class="clearfix carousel pt-3 slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
     <div className="media d-flex">
@@ -96,9 +97,9 @@ import React, {useState} from 'react';
        
              
               </div>
-              {/* <div className="col-md-6">
+              <div className="col-md-6 mt-3">
                 <img src="images/banner-img.png" className="img-fluid" alt="banner"/>
-              </div> */}
+              </div>
             </div>
             
           </div>
@@ -110,6 +111,11 @@ import React, {useState} from 'react';
             </div>
           </div> */}
         </section>
+
+          {/* mobile view      */}
+
+      
+        </>
    )
    
    

@@ -26,7 +26,7 @@ const Footer = () => {
             
         </footer>
         
-        <a id="back-to-top" href="#" class="btn btn-light btn-top btn-lg back-to-top" role="button"><i class="fas fa-angle-up"></i></a>
+        <a id="back-to-top" href="#" class="btn btn-top btn-lg back-to-top" role="button"><i class="fas fa-angle-up"></i></a>
 
         {/* <div id='toTop'><button>Top</button></div> */}
         </>
