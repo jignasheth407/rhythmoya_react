@@ -18,6 +18,7 @@ import SectionThirteen from './components/sectionThirteen/SectionThirteen';
 import Footer from './layout/footer/Footer';
 import Modal from '../src/components/modal/Modal';
 import {Router, Route} from 'react-router-dom'
+import OwlCarouselOne from './components/owlCarousel/OwlCarouselOne';
 
 
 
@@ -42,6 +43,7 @@ function App() {
       <SectionNine/>
       <SectionTen/>
       {/* <SectionEleven/> */}
+      <OwlCarouselOne/>
       <SectionTwelve/>
       <SectionThirteen/>
       <Footer/>
