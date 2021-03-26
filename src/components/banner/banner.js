@@ -37,7 +37,7 @@ import React, {useState} from 'react';
           <div className="media-pera">
           <p className="mb-0">"ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"</p>
           <div className="media-body">
-            <h5 className="mt-0 mb-0">- Mac Ryan</h5>
+            <h6 className="mt-0 mb-0 font-blue">- Mac Ryan</h6>
             <i className="fa fa-star checked" aria-hidden="true"></i>
             <i className="fa fa-star checked pl-2" aria-hidden="true"></i>
             <i className="fa fa-star checked pl-2" aria-hidden="true"></i>
@@ -55,7 +55,7 @@ import React, {useState} from 'react';
           <div className="media-pera">
           <p className="mb-0">"ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"</p>
           <div className="media-body">
-            <h5 className="mt-0 mb-0">- Mac Ryan</h5>
+            <h6 className="mt-0 mb-0 font-blue">- Mac Ryan</h6>
             <i className="fa fa-star checked" aria-hidden="true"></i>
             <i className="fa fa-star checked pl-2" aria-hidden="true"></i>
             <i className="fa fa-star checked pl-2" aria-hidden="true"></i>
@@ -73,7 +73,7 @@ import React, {useState} from 'react';
           <div className="media-pera">
           <p className="mb-0">"ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"</p>
           <div className="media-body">
-            <h5 className="mt-0 mb-0">- Mac Ryan</h5>
+            <h6 className="mt-0 mb-0 font-blue">- Mac Ryan</h6>
             <i className="fa fa-star checked" aria-hidden="true"></i>
             <i className="fa fa-star checked pl-2" aria-hidden="true"></i>
             <i className="fa fa-star checked pl-2" aria-hidden="true"></i>

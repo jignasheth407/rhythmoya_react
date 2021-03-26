@@ -16,7 +16,7 @@ const SectionTen = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 text-left">
+              <div className="col-md-4 text-left ">
                 <div className="widget-section">
                   <img src="images/breath-icon.png" alt="img1"/>
                   <h4>Breathwork</h4>

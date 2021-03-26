@@ -29,7 +29,7 @@ h3{font-size: 21px;  }
 h4{font-size: 19px; font-family:"Metropolis-Medium" }
 p{font-size: 18px;  font-family:"Metropolis-Light" }
 .header-heading h1{font-size: 26px;text-transform: uppercase; color: #fff;}
-.header-heading h5{color: #0077c7;font-size: 18px}
+.header-heading h5{color: #0077c7;font-size: 15px}
 .header-heading ul{list-style: none;font-size: 12px;padding: 0;}
 .header-heading ul li{line-height:1.6; color:#fff}
 .fa-check{color: #FFCB57;}
@@ -363,6 +363,19 @@ panel-default{margin-bottom: 10px}
  
  @media only screen and (min-width: 600px) {
 	.logo{height: 100px;}
+ }
+
+ @media only screen and (min-width: 360px){
+	.header-heading h1 {
+		font-size: 21px;
+		text-transform: uppercase;
+		color: #fff;
+		justify-content: center;
+  }
+  .header-heading h5 {
+	color: #fff;
+	font-size: 14px;
+}
  }
   
  /* @media only screen and (max-width: 600px) {

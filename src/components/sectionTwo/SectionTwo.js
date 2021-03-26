@@ -8,7 +8,7 @@ const SectionTwo = () => {
    return (
       <section className="row clearfix grey-section">
           <div className="container">
-            <div className="row clearfix">
+            <div className="row clearfix flex-row-reverse">
               <div className="col-md-4">
                 <img src="images/WidgetImage1.png" className="img-fluid"  alt="img1"/>
               </div>
